@@ -43,7 +43,7 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-  include test # This site.pp is from production branch
+  #include test # This site.pp is from production branch
   include ntp
   #include profiles::notify_a_message
 }
