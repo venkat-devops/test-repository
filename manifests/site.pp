@@ -44,6 +44,7 @@ node default {
   # Example:
   #   class { 'my_class': }
   include test # This site.pp is from production branch
+  include ntp
   #include profiles::notify_a_message
 }
 
